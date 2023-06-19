@@ -1,16 +1,13 @@
+import ImageGalery from './ImageGalery/ImageGalery';
+// import ImageGaleryItem from './ImageGaleryItem/ImageGaleryItem';
+import Serchbar from './Searchbar/Serchbar';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Serchbar />
+      <ImageGalery />
+      {/* <ImageGaleryItem /> */}
     </div>
   );
 };
